@@ -53,9 +53,7 @@ which enhancing the efficiency of the code structure.
 - The tool listens to the port 8080 and exposes a http endpoint and returns the docker containers running locally containing information from each conatiner (conatiner name , container id ,status). 
 - Search query enables to access the particular conatiner information by passing container name. 
  
-![] (
-file:///home/manoj/Downloads/containerised-envi-python/containerised-envi-python/output.PNG
-)
+![] (![image](https://user-images.githubusercontent.com/76168664/113817253-5a309300-9776-11eb-96e1-477f1c613f00.png))
 
 
 
