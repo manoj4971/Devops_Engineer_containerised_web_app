@@ -1,0 +1,46 @@
+
+{% extends "base.html" %} {% block content %}
+
+<h1>{{title}}</h1>
+    <div>
+
+        <form action="home" method="post">
+        <input type="submit", name="home", value="Home" />
+        </form>
+
+
+    </div>
+    <div>
+
+        <form action="selectedCont" method="post">
+        <input name="sQuery" placeholder="Search by name"/>
+        <input type="submit", name="search", value="Search" />
+            <i style="color:red">{{err}}</i>
+        </form>
+
+
+    </div>
+
+
+
+    <div >
+        {{table | safe}}
+    </div>
+
+
+    {% if tp %}
+    <div class="links">
+        <a href="#">&laquo;</a>
+        {% for p in tp %}
+        {% if cp==p %}
+        <a  class="active" href="{{ p }}"><b>{{ p }}</b></a>
+        {% else %}
+        <a  href="{{ p }}">{{ p }}</a>
+        {% endif %}
+        {% endfor %}
+        <a href="#">&raquo;</a>
+    </div>
+    {% endif %}
+
+
+{% endblock %}
