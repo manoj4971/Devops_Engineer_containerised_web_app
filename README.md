@@ -39,7 +39,7 @@ Here security group and add the following rules :
 ***Note:*** For creating  and configuring the security group in general need to consider who will access the instance, 
 
 Here used the public IP address of my computer. 
-To find the IP address, used the checkip service from AWS3 or 
+To find the IP address, used the checkip service from AWS S3 or 
 alternatively can search "what is my IP address" in any Internet search engine. 
 
 In Security group name enter WebServerSG or any preferred name of your choice and provide a description.
