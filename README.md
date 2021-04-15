@@ -1,7 +1,7 @@
 # Jenkins Pipeline to Deploy Application into kubernetes cluster using AWS
 
 ## Prerequisites
-S
+
 AWS account
 
 
