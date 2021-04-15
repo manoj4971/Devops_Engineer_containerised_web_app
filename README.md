@@ -1,4 +1,4 @@
-# Jenkins Pipeline to Deoploy Application into kubernetes cluster using AWS
+# Jenkins Pipeline to Deploy Application into kubernetes cluster using AWS
 
 ## Prerequisites
 S
